@@ -1,12 +1,5 @@
 #!/bin/bash
 
-# The script captures the name, model, and serial number of the MacBook.  
-# It then converts these into a name string and applies renames the computer 
-# to the string that was captured.
-#
-# By John Hawkins | johnhawkins3d@gmail.com
-
-
 ### Variables ###
 ComputerName=$(scutil --get ComputerName) # query the computer name
 Site="Replace with Company or Site Name here" # site of your business, school, or organization.  best to use abbreviations.
